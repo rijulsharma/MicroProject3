@@ -1,4 +1,4 @@
-const data = require('./food.json');
+const foodData = require('./food.json');
 function listAllFoodItems(data) {
     return data.map(item => item.foodname);
   }
